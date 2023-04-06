@@ -23,14 +23,26 @@ choco list --localonly
 ![스크린샷 2023-04-06 오후 3 50 01](https://user-images.githubusercontent.com/114221785/230294104-7dbf5917-2dff-4138-b2ac-e1f292386232.png)
 - choco install 명령어로 어떤 패키지를 설치했는지 목록을 볼 수 있다.
 
+### 3. 업데이트를 할 수 있는 프로그램의 목록을 볼 수 있다. 
+```
+choco outdated
+```
+![스크린샷 2023-04-06 오후 4 48 32](https://user-images.githubusercontent.com/114221785/230310121-62906dd8-1a88-488d-99ca-64715167de54.png)
+### 또한 모두 다 업그레이드를 할 수 있다.
+```
+choco upgrade all
+```
 
-### 3. 프로그램 최신 버전 업데이트를 간단한 커맨드로 할 수 있다.
+
+
+
+### 4. 프로그램 최신 버전 업데이트를 간단한 커맨드로 할 수 있다.
 ```
 choco upgrade bandizip
 ```
 
 
-### 4. 프로그램 삭제도 매우 간편하게 할 수 있다.
+### 5. 프로그램 삭제도 매우 간편하게 할 수 있다.
 ```
 choco uninstall bandizip
 ```
